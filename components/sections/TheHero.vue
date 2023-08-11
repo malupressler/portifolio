@@ -20,6 +20,7 @@
         <LinkBtn link="https://www.trileotech.com" text="IBM"/>
       as a Software Developer
     </MainParagraph>
+    <Skills/>
   </div>
 </template>
 <script setup>

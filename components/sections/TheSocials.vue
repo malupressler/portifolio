@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center">
+  <div data-aos="zoom-in-down" class="flex justify-between items-center">
     <div class="flex gap-1">
       <SocialIcon
         title="Github"
