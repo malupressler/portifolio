@@ -10,5 +10,5 @@
 import {h} from "vue";
 
 export default(props, context) => h("h2", {
-  class: "text-xl sm:text-2xl md:text-3xl md:leading-normal slg:text-4xl slg:leading-relaxed font-theme_bold text-subtitle_text",
+  class: "text-xl sm:text-2xl md:text-3xl md:leading-normal slg:text-4xl slg:leading-relaxed font-theme_bold text-second_subtitle",
 }, [context.slots.default()])

@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         p_text: "#b1b1b1",
         head_text: "#eaeaea",
+        subtitle_text: "#bc36ff",
+        second_subtitle: "#864de8",
         navbar_back: "rgba(17, 17, 17, 0.8)",
         item_back: "#161616",
         item_hover_back: "#1d1d1d",
