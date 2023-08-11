@@ -12,6 +12,8 @@
 
 <script lang="ts" setup>
 import {useHead} from "#head";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the AOS styles
 
 const images = import.meta.glob("./assets/pageMeta/*.{png,svg,ico}", {as: 'url', eager: true});
 
@@ -64,5 +66,11 @@ useHead({
     },
   ],
 })
+// Initialize AOS only on the client side
+console.log('AQUI', process.client)
+if (process.client) {
+  AOS.init();
+}
+
 </script>
 
