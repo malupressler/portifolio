@@ -26,3 +26,16 @@ export type Work = {
 export type WorkStore = {
     getAllWorks: Work[];
 }
+
+export type Skill = {
+    id: number;
+    name: string;
+    icon: string;
+    description: string;
+    tech: string[];
+    link: string;
+}
+
+export type SkillStore = {
+    getAllSkills: Skill[];
+}
