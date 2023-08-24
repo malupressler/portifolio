@@ -1,8 +1,7 @@
 <template>
   <div>
     <NuxtLayout name="section">
-      <SectionTitle>Featured Projects</SectionTitle>
-      <p>Here are some of the projects that I'm proud of.</p>
+      <SectionTitle>Projects</SectionTitle>
       <div
           class="grid grid-cols-1 slg:grid-cols-2 gap-7 sm:gap-6 pt-8 mx-auto sm:w-5/6 slg:w-full"
       >
