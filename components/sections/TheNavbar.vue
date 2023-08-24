@@ -9,7 +9,11 @@
         class="font-logo text-3xl font-normal select-none slg:font-semibold lg:text-2xl"
         to="/"
     >
-      Maria's Portifolio
+       <img
+        :alt="name"
+        :src="TopImage"
+        class="w-full object-cover rounded-md slg:h-20"
+    />
     </NuxtLink>
     <div class="flex text-sm items-center gap-1 sm:gap-2">
       <NavbarItem to="/">
@@ -27,3 +31,6 @@
     </div>
   </nav>
 </template>
+<script setup>
+import TopImage from "../../assets/pageMeta/myicon.png"
+</script>

@@ -24,19 +24,19 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: images["./assets/pageMeta/favicon-32x32.png"],
+      href: images["./assets/pageMeta/32icon.png"],
       sizes: "32x32",
     },
     {
       rel: "icon",
       type: "image/png",
-      href: images["./assets/pageMeta/favicon-16x16.png"],
-      sizes: "16x16",
+      href: images["./assets/pageMeta/32icon.png"],
+      sizes: "32x32",
     },
     {
       rel: "apple-touch-icon",
       type: "image/png",
-      href: images["./assets/pageMeta/apple-touch-icon.png"],
+      href: images["./assets/pageMeta/180icon.png"],
       sizes: "180x180",
     },
     {
@@ -67,7 +67,6 @@ useHead({
   ],
 })
 // Initialize AOS only on the client side
-console.log('AQUI', process.client)
 if (process.client) {
   AOS.init();
 }
