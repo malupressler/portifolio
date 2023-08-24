@@ -21,6 +21,7 @@
         class="w-full object-cover rounded-md slg:h-48"
     />
     <Skills/>
+    <Languages/>
   </div>
 </template>
 <script setup>
