@@ -39,19 +39,19 @@
         </SectionParagraph>
         <SectionParagraph>
           You can find my projects on my
-          <LinkBtn link="https://github.com/mightykillrr" text="Github"/>
+          <LinkBtn link="https://github.com/malupressler" text="Github"/>
           or on my
           <LinkBtn link="/" text="Portfolio"/>
           page. I usually don't update my portfolio page but all my recent one's are on github.
         </SectionParagraph>
         <SectionParagraph>
           Outside of my work-life, I love to draw, take pictures,do some craftwork and listening to musics.
-          or just hanging out on Discord with my friends.
+          or just hanging out.
         </SectionParagraph>
         <SectionParagraph>
           Credits to
-          <LinkBtn link="https://www.pexels.com/@readymade" text="@readymade"/>
-          for header picture!
+          <LinkBtn link="https://aniketkotal.me/" text="@aniketkotal"/>
+          for the project boilerplate!
         </SectionParagraph>
       </div>
       <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6"/>
