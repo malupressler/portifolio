@@ -11,15 +11,15 @@
       aiming to deliver the best possible results.
     </MainParagraph>
     <MainParagraph>
-      <img
-        :alt="name"
-        :src="TopImage"
-        class="w-full object-cover rounded-md slg:h-48"
-    />
       I'm currently working full-time at
         <LinkBtn link="https://www.trileotech.com" text="IBM"/>
       as a Software Developer
     </MainParagraph>
+    <img
+        :alt="name"
+        :src="TopImage"
+        class="w-full object-cover rounded-md slg:h-48"
+    />
     <Skills/>
   </div>
 </template>
