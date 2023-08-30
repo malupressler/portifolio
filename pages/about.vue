@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtLayout name="page">
-      <img :src="TopImage" class="w-full h-28 rounded-xl object-cover"/>
+      <!-- <img :src="TopImage" class="w-full h-28 rounded-xl object-cover"/> -->
       <div class="flex flex-col gap-6 lg:gap-9 mx-auto w-full md:w-10/12">
         <SectionParagraph>
           I'm Maria Luiza Iuras Pressler, I am a full-stack(FE-heavy) developer with expertise principally in 
@@ -66,7 +66,7 @@
 </template>
 <script setup>
 import {useWorkStore} from "../store/workStore";
-import TopImage from "../assets/imgs/about-image.jpg"
+// import TopImage from "../assets/imgs/about-image.jpg"
 
 const workStore = useWorkStore();
 const works = workStore.getAllWorks;
