@@ -2,7 +2,7 @@
   <div>
     <NuxtLayout name="section">
       <SecondSubtitle>Skills</SecondSubtitle>
-      <p>Here are some of the projects that I'm proud of.</p>
+      <p>Here are some of my principal skills.</p>
       <div
           class="grid grid-cols-1 slg:grid-cols-4 gap-7 sm:gap-6 pt-8 mx-auto sm:w-5/6 slg:w-full"
       >
