@@ -18,13 +18,14 @@
             as a Software Developer
           </MainParagraph>
       </div>
-  <div class="border border-gray-500 rounded-md p-2">
+  <div class="border border-gray-500 rounded-md p-2 w-full object-cover slg:h-full">
   <img
     :alt="name"
     :src="profileImage"
-    class="w-42 h-32 p-1 object-cover rounded-md slg:h-full"
+    class="w-full h-auto"
   />
 </div>
+
 
 </div>
 
