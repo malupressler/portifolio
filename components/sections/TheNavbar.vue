@@ -32,5 +32,5 @@
   </nav>
 </template>
 <script setup>
-import TopImage from "../../assets/pageMeta/myicon.png"
+import TopImage from "../../assets/pageMeta/favicon.ico"
 </script>
